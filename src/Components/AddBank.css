@@ -1,0 +1,45 @@
+ body{
+  background: linear-gradient(rgba(31, 30, 30, 0.832), rgba(45, 20, 189, 0.5)),
+  url("../images/bg3.jpg"); 
+  background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.bank-form-container {
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  background-repeat: no-repeat;
+  position:absolute;
+  top: 50%;
+  width: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration:underline;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+  font-size:medium;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.alert {
+  margin-bottom: 15px;
+}
+
+.btn-dark {
+  width: 100%;
+  background-color:cadetblue;
+}
